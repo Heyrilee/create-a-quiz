@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <h1>Get to Know you Quiz</h1>
+    <form action="/action_page.php">
+      <!-- Name -->
+      <label for="name">Name:</label>
+      <br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="your name"
+        required
+      />
+      <br />
+      <br />
+      <!-- birthday -->
+      <label for="Birthdate">Birthdate:</label>
+      <input type="date" id="Birthdate" name="birthdate" /> <br />
+      <br />
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="your email"
+        required
+      />
+      <br />
+      <br />
+      <!-- phone number -->
+      <label for="phone">Phone Number:</label><br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="(333)-7777-1010"
+        required
+      /><br />
+      <br />
+      <!-- sex -->
+      <label for="female">Sex:</label><br />
+      <input id="female" type="radio" value="female" name="female" /> Female
+      <label for="male"></label><br />
+      <input id="male" type="radio" value="male" name="male" />
+      Male
+      <br />
+      <br />
+      <!-- transportation -->
+      <p>What is your mode(s) of transportation?</p>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> Bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> Car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> Boat</label>
+      <br />
+      <br />
+      <!-- favorite color -->
+      <label for="color">Favorite Color</label>
+      <br />
+      <input type="color" id="color" name="favcolor" />
+      <br />
+      <br />
+      <!-- grade -->
+      <p>What Grade are you in?</p>
+      <select name="Grade">
+        <option value="Freshman">Freshman</option>
+        <option value="Sophmore">Sophmore</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+      </select>
+      <br />
+      <br />
+      <!-- favorite number -->
+      <label for="number">Favorite Number</label>
+      <br />
+      <input type="number" id="number" name="favnum" />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
